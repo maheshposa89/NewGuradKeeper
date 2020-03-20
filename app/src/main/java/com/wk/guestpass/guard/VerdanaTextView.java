@@ -11,7 +11,7 @@ import android.util.AttributeSet;
  * Written by Winnerawan T <winnerawan@gmail.com>, June 2017
  */
 
-public class VerdanaTextView extends android.support.v7.widget.AppCompatTextView {
+public class VerdanaTextView extends androidx.appcompat.widget.AppCompatTextView {
 
     public VerdanaTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
