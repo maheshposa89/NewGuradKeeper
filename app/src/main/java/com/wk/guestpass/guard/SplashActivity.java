@@ -20,8 +20,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
-import com.crashlytics.android.Crashlytics;
-import io.fabric.sdk.android.Fabric;
+
 
 
 public class SplashActivity extends AppCompatActivity {
@@ -34,7 +33,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
+        //Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_splash);
 
         imageView=findViewById(R.id.imageView);

@@ -38,9 +38,9 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <meta-data
+     <!--   <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="167a28602f5f2685fc62f540ec502d84b85f5ec3" />
+            android:value="167a28602f5f2685fc62f540ec502d84b85f5ec3" />-->
 
         <provider
             android:name="androidx.core.content.FileProvider"
