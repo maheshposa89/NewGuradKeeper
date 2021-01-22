@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        app:srcCompat="@drawable/splashh"
+        app:srcCompat="@drawable/splash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"/>

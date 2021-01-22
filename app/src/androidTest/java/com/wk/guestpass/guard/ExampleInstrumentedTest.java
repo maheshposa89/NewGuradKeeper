@@ -1,4 +1,4 @@
-package com.example.abc.newguradkeeper;
+package com.wk.guestpass.guard;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
