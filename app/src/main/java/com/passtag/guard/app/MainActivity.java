@@ -1,4 +1,4 @@
-package com.wk.guestpass.guard;
+package com.passtag.guard.app;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;

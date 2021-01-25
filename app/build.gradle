@@ -5,7 +5,7 @@ apply plugin: 'com.google.firebase.crashlytics'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.wk.guestpass.guard"
+        applicationId "com.passtag.guard.app"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 3
@@ -64,5 +64,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
 
     // Recommended: Add the Google Analytics SDK.
-    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.1'
 }

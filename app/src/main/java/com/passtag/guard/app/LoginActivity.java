@@ -1,4 +1,4 @@
-package com.wk.guestpass.guard;
+package com.passtag.guard.app;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;

@@ -1,4 +1,4 @@
-package com.wk.guestpass.guard;
+package com.passtag.guard.app;
 
 import org.junit.Test;
 

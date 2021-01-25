@@ -1,8 +1,10 @@
-package com.wk.guestpass.guard;
+package com.passtag.guard.app;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
+import android.widget.TextView;
 
 /**
  * Copyright 2017 Winnerawan T
@@ -11,26 +13,27 @@ import android.util.AttributeSet;
  * Written by Winnerawan T <winnerawan@gmail.com>, June 2017
  */
 
-public class VerdanaTextView extends androidx.appcompat.widget.AppCompatTextView {
+@SuppressLint("AppCompatCustomView")
+public class HkGroTextView extends TextView {
 
-    public VerdanaTextView(Context context, AttributeSet attrs, int defStyle) {
+    public HkGroTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public VerdanaTextView(Context context, AttributeSet attrs) {
+    public HkGroTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public VerdanaTextView(Context context) {
+    public HkGroTextView(Context context) {
         super(context);
         init();
     }
 
     private void init() {
         if (!isInEditMode()) {
-            Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "VERDANA.TTF");
+            Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "HKGROTESK-MEDIUM.ttf");
             setTypeface(tf);
         }
     }
