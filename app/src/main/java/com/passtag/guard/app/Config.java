@@ -1,8 +1,8 @@
 package com.passtag.guard.app;
 
 public class Config {
-
-    public static final String BASE_URL="http://live.passtag.co.in/";
+    //public static final String BASE_URL="http://live.passtag.co.in/";
+    public static final String BASE_URL="http://pas.passtag.co.in/";
     public static final String checkcode=BASE_URL+"api/check_code";
     public static final String login=BASE_URL+"api/guard_login";
     public static final String dashboard=BASE_URL+"api/total_visitors";
